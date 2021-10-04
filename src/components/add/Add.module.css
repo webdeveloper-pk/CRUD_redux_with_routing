@@ -1,0 +1,29 @@
+.wrapper {
+  margin-top: 100px;
+  text-align: center;
+  color: #08546c;
+}
+
+.wrapper .inner_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 50px;
+  margin: 0 auto;
+}
+.inner_wrapper input {
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #08546c;
+}
+
+.inner_wrapper button {
+  background-color: #08546c;
+  padding: 12px 16px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+}
